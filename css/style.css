@@ -1,0 +1,107 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: transparent;
+  height: 4em;
+}
+
+.top-nav-collapse {
+  background-color: #23415C;
+}
+#home {
+  background: url(img/image.jpg)  no-repeat center center fixed ;
+  display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+  background-size: cover;
+}
+.volet img {
+  height: 66%;
+}
+
+.landing-text{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: #D5D5D5;
+}
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+}
+.padding {
+	padding: 80px 0;
+}
+.aboutpart {
+  padding: 15px ;
+  margin-bottom: 16px;
+}
+.aboutpart p {
+	font-size: 1.2em;
+}
+.padding {
+	padding: 80px 0;
+}
+.padding img {
+  width: 100%;
+}
+hr { 
+  display: block;
+  margin-top: 3em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border: 2px solid #23415C;
+  border-radius: 5px;
+}
+h2 {
+  color: #23415C;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5em;
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: center; 
+}
+h3 {
+  font-weight: bold;
+  margin-top: 1.2em;
+}
+#fixed {
+	background: url(img/background.jpg) no-repeat center center fixed;
+	display: table;
+	height: 50%;
+	width: 100%;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+#fixed2{
+  background: url(img/background2.jpg) no-repeat center center fixed;
+  display: table;
+  height: 60%;
+  width: 100%;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+      background-color: #23415C;
+  }
+  .landing-text h1 {
+    font-size: 400%;
+    font-weight: 300;
+  }
+}
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
